@@ -7,7 +7,6 @@ import PropTypes from "prop-types";
  **/
 
 class QuizEnd extends Component {
-  state = {};
   render() {
     return (
       <div>
@@ -18,5 +17,4 @@ class QuizEnd extends Component {
   }
 }
 
-QuizEnd.propTypes = {};
 export default QuizEnd;
