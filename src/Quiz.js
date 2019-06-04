@@ -25,7 +25,7 @@ class Quiz extends Component {
     return (
       <div>
         {isQuizEnd && (
-          <QuizEnd resetHandlerClick={this.handleResetClick.bind(this)} />
+          <QuizEnd resetClickHandler={this.handleResetClick.bind(this)} />
         )}
         {!isQuizEnd && (
           <QuizQuestion

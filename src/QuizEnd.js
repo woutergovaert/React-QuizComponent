@@ -8,7 +8,7 @@ import PropTypes from "prop-types";
 
 class QuizEnd extends Component {
   handleResetClick() {
-    this.props.resetHandlerClick();
+    this.props.resetClickHandler();
   }
   render() {
     return (
